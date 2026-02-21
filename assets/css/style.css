@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #0e9aa7, #3da4ab, #f6cd61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+.auth-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 10px;
+  color: #0e9aa7;
+}
+
+.auth-card p {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.btn {
+  background: #0e9aa7;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #3da4ab;
+}
+
+.switch {
+  margin-top: 20px;
+  color: #555;
+}
+
+.switch a {
+  color: #0e9aa7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.error {
+  background: #ffdddd;
+  color: #b30000;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}

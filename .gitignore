@@ -1,0 +1,4 @@
+config.php 
+.env 
+google_credentials.json 
+*.log 
